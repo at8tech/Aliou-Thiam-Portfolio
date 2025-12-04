@@ -42,7 +42,7 @@ header p {
 .a-propos p {
   line-height: 1.6;
   margin-bottom: 15px;
-  text-align: justify;
+  text-align: center;
 }
 
 .liste-outils {
