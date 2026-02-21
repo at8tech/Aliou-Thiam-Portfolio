@@ -1,115 +1,106 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aliou Thiam – Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cursor-dot"></div>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aliou Thiam – Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F7ZSS8S3NK"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "G-F7ZSS8S3NK");
-  </script>
-</head>
-
-<body>
-  <header>
-    <h1>Aliou Thiam</h1>
-    <p>From Hello World to full stack 💡</p>
-  </header>
-
-  <main class="conteneur">
-
-    <section class="a-propos">
-      <h2>🧑‍💻 À propos de moi</h2>
-      <p>
-        Passionné d’informatique et de nouvelles technologies depuis mon plus
-        jeune âge, j’explore le monde du numérique sous toutes ses formes :
-        développement web, cybersécurité, intelligence artificielle ou encore
-        gestion de bases de données. Ce portfolio est un espace où je
-        rassemble mes projets, mes compétences et les outils que j’utilise au
-        quotidien. Mon objectif ? Partager ce que j’apprends, montrer ce que
-        je crée, et continuer à nourrir ma curiosité sans fin pour la tech.
-        Que vous soyez passionné, étudiant, professionnel ou simple curieux,
-        j’espère que vous trouverez ici de l’inspiration… ou l’envie de lancer
-        votre prochain projet.
-      </p>
-      <p><strong>PEACE ✌️</strong></p>
-    </section>
-
-    <section class="outils">
-      <h2>🛠️ Outils</h2>
-      <div class="liste-outils">
-        <img src="images/html5.svg" alt="HTML5" title="HTML5" />
-        <img src="images/css3.svg" alt="CSS3" title="CSS3" />
-        <img src="images/git.svg" alt="Git" title="Git" />
-        <img src="images/github.svg" alt="GitHub" title="GitHub" />
-        <img src="images/vscode.svg" alt="VS Code" title="VS Code" />
-        <img src="images/terminal.svg" alt="Terminal" title="Terminal" />
-      </div>
-    </section>
-
-    <section class="projets">
-      <h2>📁 Projets</h2>
-      <div class="liste-projets">
-        <div class="projet-item">
-          <h3>ExoSn</h3>
-          <p>
-            ExoSN est un site web éducatif qui regroupe des séries d’exercices
-            en Maths, Physique-Chimie (PC) et SVT, basées sur le programme
-            sénégalais. L’objectif est d’aider les élèves à réviser facilement
-            et à accéder rapidement aux ressources scolaires.
-          </p>
-          <a href="https://github.com/at8tech/ExoSN" target="_blank">Voir Projet</a>
+    <header>
+      <div class="header-content">
+        <h1 class="reveal">Aliou Thiam</h1>
+        <div class="social-min" aria-label="Réseaux sociaux">
+          <a href="https://github.com/at8tech" target="_blank" class="social-icon github" aria-label="GitHub">
+            <img src="images/github.svg" alt="GitHub" />
+          </a>
+          <a href="https://linkedin.com/in/at8-tech-745483396/" target="_blank" class="social-icon linkedin" aria-label="LinkedIn">
+            <img src="images/linkedin.svg" alt="LinkedIn" />
+          </a>
+          <a href="https://x.com/At8Tech" target="_blank" class="social-icon x-twitter" aria-label="X">
+            <img src="images/x.svg" alt="X" />
+          </a>
+          <a href="mailto:at8tech1@gmail.com" class="social-icon email" aria-label="Email">
+            <img src="images/email.svg" alt="Email" />
+          </a>
         </div>
+        <div class="header-badge">young coder</div>
       </div>
-    </section>
+    </header>
 
-  <section class="contact">
-          <h2>🌐 Réseaux</h2>
-          <div class="liste-reseaux">
-            <a href="https://github.com/at8tech" target="_blank">
-              <img src="images/github.svg" alt="GitHub" title="GitHub" />
-            </a>
+    <main class="container">
+      <section class="about reveal">
+        <h2>🧑‍💻 About Me</h2>
+        <p>
+          👋 Hi there, I'm Aliou! I'm a student with a serious passion for
+          Information Technology 💻 and everything that makes computers tick. I
+          love diving deep into the world of coding 👨‍💻 to build and create, and
+          I'm fascinated by the intricacies of networks 🌐 that connect us all.
+          My curiosity also drives me to explore cybersecurity 🛡️—keeping
+          systems safe is a thrilling challenge! Finally, I'm constantly
+          learning about AI 🧠 and the incredible potential of artificial
+          intelligence. I'm always ready for the next technological adventure!
+          🚀
+        </p>
+        <p class="peace-text">PEACE ✌️</p>
+      </section>
 
-            <a href="https://youtube.com/@at8tech?si=DlJWfoumcMGvD8I9" target="_blank">
-              <img src="images/youtube.svg" alt="YouTube" title="YouTube" />
-            </a>
-
-            <a href="https://tiktok.com/@at8tech" target="_blank">
-              <img src="images/tiktok.svg" alt="TikTok" title="TikTok" />
-            </a>
-
-            <a href="https://instagram.com/at8tech" target="_blank">
-              <img src="images/instagram.svg" alt="Instagram" title="Instagram" />
-            </a>
-
-            <a href="https://x.com/At8Tech" target="_blank">
-              <img src="images/x.svg" alt="X" title="X" />
-            </a>
-
-            <a href="https://www.linkedin.com/in/at8-tech-745483396/" target="_blank">
-              <img src="images/linkedin.svg" alt="LinkedIn" title="LinkedIn" />
-            </a>
-
-            <a href="https://linktr.ee/at8tech" target="_blank">
-              <img src="images/linktree.svg" alt="Linktree" title="Linktree" />
-            </a>
+      <section class="tools reveal">
+        <h2>🛠️ My Tools</h2>
+        <div class="tools-grid">
+          <div class="tool-card">
+            <img src="images/html5.svg" alt="HTML5" title="HTML5" />
           </div>
-  </section>
-  </main>
+          <div class="tool-card">
+            <img src="images/css3.svg" alt="CSS3" title="CSS3" />
+          </div>
+          <div class="tool-card">
+            <img src="images/git.svg" alt="Git" title="Git" />
+          </div>
+          <div class="tool-card">
+            <img src="images/github.svg" alt="GitHub" title="GitHub" />
+          </div>
+          <div class="tool-card">
+            <img src="images/vscode.svg" alt="VS Code" title="VS Code" />
+          </div>
+          <div class="tool-card">
+            <img src="images/terminal.svg" alt="Terminal" title="Terminal" />
+          </div>
+        </div>
+      </section>
 
-  <footer>
-    <p>© 2025 Aliou Thiam</p>
-  </footer>
-</body>
+      <section class="projects reveal">
+        <h2>📁 Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-content">
+              <h3>ExoSn</h3>
+              <p>
+                Educational platform gathering exercise series (Math, Physics,
+                Biology) based on the Senegalese curriculum.
+              </p>
+              <a
+                href="https://github.com/at8tech/ExoSN"
+                target="_blank"
+                class="btn"
+                >View</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
+    <footer>
+      <p>© 2026 Aliou Thiam • Built with passion</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
